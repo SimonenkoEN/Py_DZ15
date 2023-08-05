@@ -33,6 +33,7 @@ def get_roots(a: int, b: int, c: int):
             x.append((-b + d ** 0.5) / (2*a))
             x.append((-b - d ** 0.5) / (2*a))
             logger.info(f'Корни уравнения c коэффициентами {a =}, {b =}, {c =}: {x[0]}, {x[1]}')
+    print(*x)
     return x
 
 
